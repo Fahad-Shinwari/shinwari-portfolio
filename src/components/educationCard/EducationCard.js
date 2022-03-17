@@ -13,7 +13,7 @@ export default function EducationCard({school}) {
             {item}
           </li>
         ))
-      : null;
+      : null; 
   };
   const {isDark} = useContext(StyleContext);
   return (

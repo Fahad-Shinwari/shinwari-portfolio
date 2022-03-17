@@ -136,10 +136,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Full Stack Developer (MERN Stack)",
+      company: "IR Solutions",
+      companylogo: require("./assets/images/irsolutions.jpg"),
+      date: "October 2021 – Present",
+      desc:
+        "Working as a Full Stack website developer mainly in MERN STACK with a touch of Virtual reality,3D and Metaverse Stack",
+      descBullets: [
+        "Added 3d 360 degree images in Monsters Clan which increased the sale of NFT's upto 5 millions dollars",
+        "Added VR based cars in nitrox which is highly appreciated by the blockchain community",
+        "Worked on the website optimization and increased the website's speed upto 2 times",
+        "Core team member who has solid grip on frontend,backend and Virtual Reality(MetaVerse)"
+      ]
+    },
+    {
       role: "Full Stack Developer (Mobile & Website)",
       company: "Ministry of Foreign Affairs Kabul",
       companylogo: require("./assets/images/wordpress1.jpg"),
-      date: "December 2020 – Present",
+      date: "December 2020 – October 2021",
       desc:
         "Worked as a full Stack website developer building React Applications that are highly scalable ,maintainable and reactive",
       descBullets: [
@@ -151,13 +165,13 @@ const workExperiences = {
     },
     {
       role: "Front-End Website Developer",
-      company: "Empire",
+      company: "SPQR OPERATIONS B.V",
       companylogo: require("./assets/images/empireLogo.png"),
       date: "May 2020 – November 2020",
       desc:
-        "Worked as a full Stack website developer building React Applications that are highly scalable ,maintainable and reactive",
+        "Worked as a front end developer building React Applications that are highly scalable ,maintainable and reactive",
       descBullets: [
-        "Worked as a full Stack website developer building React Applications that are highly scalable ,maintainable and reactive.",
+        "Worked as a front end developer building React Applications that are highly scalable ,maintainable and reactive.",
         "Handling the data coming through the API from the back end and integrating it on the front end by Development/ Deployment/ Maintenance.",
         "Made a plugin that got our website lots of traffic and sales.",
         "Made a sofa plugin which can customize the furniture’s of your choice with a go.",
@@ -235,6 +249,42 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/prostarter.jpg"),
+      projectName: "Prostarter",
+      projectDesc: "Prostarter is a community-centric and transparent DeFi cross-chain platform offering project fundraisings, token sales, and much more for the Crypto community.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://prostarter.io/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/monsters.jpg"),
+      projectName: "Monsters Clan",
+      projectDesc: "Monsters Clan is a first ever third person and user controlled NFT game, allowing players to own, train, and  play their monsters in battles to win and earn.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://monstersclan.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nitrox.jpg"),
+      projectName: "Nitrox Racing",
+      projectDesc: "Nitrox Racing is an interactive and high-quality NFT racing game empowering racers from all around the World to compete, win, and earn in racing competitions.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://nitrox.run/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/reasy.webp"),
       projectName: "Reasy",
       projectDesc: "Project made for a netherlands based company for space management. Reasy is a solution for operational excellence providing ready-to-deploy Solutions.",
@@ -249,7 +299,7 @@ const bigProjects = {
     {
       image: require("./assets/images/prudental.webp"),
       projectName: "Prudental Netherlands",
-      projectDesc: "An Ecommerce site providing Quality Dental Products And Tools.",
+      projectDesc: "An Ecommerce site providing Quality Dental Products And Tools.The online store for dental professionals.",
       footerLink: [
         {
           name: "Visit Website",
