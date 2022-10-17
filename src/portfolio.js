@@ -136,10 +136,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Software Engineer",
+      company: "DatumSquare IT Services",
+      companylogo: require("./assets/images/datum.jpg"),
+      date: "June 2022 – Present",
+      desc:
+        "Working as a Senior Software Engineer mainly in React, Node, Angular and Javacript STACK",
+      descBullets: [
+        "Worked on angular application and made it faster in execution",
+        "Wrote database queries and optimized it almost as fast as 2x",
+        "Worked on an application's sockets and helped the client in smooth communication via sockets",
+        "Worked on UI design and made it completely responsive for different devices(Desktop, Mobile and Tablets)"
+      ]
+    },
+    {
       role: "Full Stack Developer (MERN Stack)",
       company: "IR Solutions",
       companylogo: require("./assets/images/irsolutions.jpg"),
-      date: "October 2021 – Present",
+      date: "October 2021 – May 2022",
       desc:
         "Working as a Full Stack website developer mainly in MERN STACK with a touch of Virtual reality,3D and Metaverse Stack",
       descBullets: [
@@ -164,7 +178,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Website Developer",
+      role: "Front-End Developer",
       company: "SPQR OPERATIONS B.V",
       companylogo: require("./assets/images/empireLogo.png"),
       date: "May 2020 – November 2020",
@@ -248,6 +262,18 @@ const bigProjects = {
   title: "Close Source Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/prostarter.jpg"),
+      projectName: "Share Mobility (Rider App)",
+      projectDesc: "Prostarter is a community-centric and transparent DeFi cross-chain platform offering project fundraisings, token sales, and much more for the Crypto community.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://prostarter.io/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/prostarter.jpg"),
       projectName: "Prostarter",
@@ -657,14 +683,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+93-704549657",
+  number: "+92-3202255635",
   email_address: "shinwarifahad96@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "FahadShinwari6", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

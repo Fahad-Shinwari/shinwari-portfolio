@@ -1,6 +1,6 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.css";
-import ColorThief from "colorthief";
+import ColorThief from "@moezx/colorthief";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);

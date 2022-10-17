@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import "./OpenSourceProjects.css";
 import {openSourceProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function OpenSourceProjects() {
