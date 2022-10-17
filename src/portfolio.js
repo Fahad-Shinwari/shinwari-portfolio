@@ -264,7 +264,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/prostarter.jpg"),
-      projectName: "Share Mobility (Rider App)",
+      projectName: "Share Mobility (Rider's App)",
       projectDesc: "Prostarter is a community-centric and transparent DeFi cross-chain platform offering project fundraisings, token sales, and much more for the Crypto community.",
       footerLink: [
         {
