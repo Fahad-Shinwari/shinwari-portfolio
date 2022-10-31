@@ -263,21 +263,49 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/prostarter.jpg"),
+      image: require("./assets/images/sharem.jpg"),
       projectName: "Share Mobility (Rider's App)",
-      projectDesc: "Prostarter is a community-centric and transparent DeFi cross-chain platform offering project fundraisings, token sales, and much more for the Crypto community.",
+      projectDesc: "Share Mobility is a transportation solutions for companies that need to get employees to work. Tech stack used is React, Redux, Google Maps, Sass(CSS), GraphQl and appollo",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://prostarter.io/"
+          url: "https://rider.ridewithshare.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/sharem.jpg"),
+      projectName: "Share Mobility (Admin's Panel)",
+      projectDesc: "Share Mobility is a transportation solutions for companies that need to get employees to work. Tech stack used is AngularJS, Javascript, Google Maps, Sass(CSS). The link is only for clients. Watch Video",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rider.ridewithshare.com/"
+        },
+        {
+          name: "View Video",
+          url: "/video/nqUN530Rgtw"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/battlecraft.jpg"),
+      projectName: "Battle Craft BlockChain Project",
+      projectDesc: "BattleCraft, a big step towards the space destination to fight for glory and create a legacy in the space of Metaverse. Tech stack used is React, Css(Sass), ThreeJS, Redux, NodeJs and MongoDB",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://battlecraft.space/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/prostarter.jpg"),
-      projectName: "Prostarter",
-      projectDesc: "Prostarter is a community-centric and transparent DeFi cross-chain platform offering project fundraisings, token sales, and much more for the Crypto community.",
+      projectName: "Prostarter Blockchain",
+      projectDesc: "This Project raised 3.4 million $ of funds.Prostarter is a community-centric and transparent DeFi cross-chain platform offering project fundraisings, token sales, and much more for the Crypto community.",
       footerLink: [
         {
           name: "Visit Website",
@@ -288,8 +316,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/monsters.jpg"),
-      projectName: "Monsters Clan",
-      projectDesc: "Monsters Clan is a first ever third person and user controlled NFT game, allowing players to own, train, and  play their monsters in battles to win and earn.",
+      projectName: "Monsters Clan NFT & Blockchain",
+      projectDesc: "This project sold 5 Million$ of NFT's. Monsters Clan is a first ever third person and user controlled NFT game, allowing players to own, train, and  play their monsters in battles to win and earn.",
       footerLink: [
         {
           name: "Visit Website",
@@ -311,9 +339,49 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/allshore.jpg"),
+      projectName: "All Shore Portal",
+      projectDesc: "It is a portal made in React, Laravel and other frontend technologies for employees to submit their daily reports of work. The managers review different employees work rate and analyze them",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://portal.allshoreresources.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/rx.jpg"),
+      projectName: "RX Strategies",
+      projectDesc: "Next generation solutions for mixed-use 340B inventory management and contract pharmacy administration. You need to request for the demo app. Stack Used React, Ag Grid library for server side rendering, Redux and GraphQL",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://rxstrategies.com/"
+        },
+        {
+          name: "Visit App",
+          url: "https://app.340bdashboard.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/sifon.jpg"),
+      projectName: "Sifon Gmail Slicer",
+      projectDesc: "Sifon is a gmail slicer which takes out data from a user's gmail like newsletter and other promotions and based on those it suggests him new promotions. It will be used in big organizations like slack is used. Stack is React,Redux and Node.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://app.getsifon.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/reasy.webp"),
       projectName: "Reasy",
-      projectDesc: "Project made for a netherlands based company for space management. Reasy is a solution for operational excellence providing ready-to-deploy Solutions.",
+      projectDesc: "Project made for a netherlands based company for space management. Reasy is a solution for operational excellence providing ready-to-deploy Solutions. Made in React, Redux,.Net and GraphQl (Apollo)",
       footerLink: [
         {
           name: "Visit Website",
@@ -340,32 +408,32 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://test.legal.nl/"
+          url: "https://legal.nl/"
         }
       ]
     },
     {
       image: require("./assets/images/flex.webp"),
       projectName: "DatisFlex Netherlands",
-      projectDesc: "Job Portal for IT Professionals",
+      projectDesc: "Job Portal for IT Professionals in netherlands. First you make your CV inside the portal and then apply for jobs just like indeed",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://test.datisflex.nl/"
+          url: "https://datisflex.nl/"
         }
       ]
     },
-    {
-      image: require("./assets/images/xyz.png"),
-      projectName: "We Play Ball",
-      projectDesc: "Project to create your custom teams and manage them",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://weplay.irdemo.xyz/"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/xyz.png"),
+    //   projectName: "We Play Ball",
+    //   projectDesc: "Project to create your custom teams and manage them",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://weplay.irdemo.xyz/"
+    //     }
+    //   ]
+    // }
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -377,7 +445,51 @@ const bigProjects = {
 const openSourceProjects = {
   title: "Open Source Projects",
   subtitle: "SOME PROJECTS THAT I HAVE MADE IN MY FREE TIME",
+  display:true,
   projects: [
+    {
+      image: require("./assets/images/gun.jpg"),
+      projectName: "Shooter Game",
+      projectDesc: "Made a shooter game Lume.js,Three.js and Meteor.js.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://first-person-shooter.meteorapp.com/"
+        },
+        {
+          name: "Visit Github",
+          url: "https://github.com/Fahad-Shinwari/shooter"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/car.png"),
+      projectName: "Car Driving Game",
+      projectDesc: "Made a self driving car which controls itself by self learning. Tech used is Javascript and BrainJs",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/Fahad-Shinwari/car-driving"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/social.jpg"),
+      projectName: "Social Network",
+      projectDesc: "Project made in MERN stack with React, Redux, React Router, Node and MongoDB",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mern-social-media-sdp.herokuapp.com/"
+        },
+        {
+          name: "Visit Github",
+          url: "https://github.com/Fahad-Shinwari/mern-social"
+        }
+      ]
+    },
     {
       image: require("./assets/images/linkedin.png"),
       projectName: "LinkedIn Clone",
@@ -412,62 +524,6 @@ const openSourceProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/social.jpg"),
-      projectName: "Social Network",
-      projectDesc: "Project made in MERN stack with React, Redux, React Router, Node and MongoDB",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://mern-social-network.herokuapp.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/restaurant.jpg"),
-      projectName: "Restaurant Dummy Site",
-      projectDesc: "Restaurant Project made with Html, Css, Sass and Bootstrap",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://restaurant-677f9.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/Nuno.jpg"),
-      projectName: "Nuno Theme",
-      projectDesc: "Project made with Html, Css, Sass, Bootstrap and Jquery",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://responsive-theme.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/portfolio.jpg"),
-      projectName: "Portfolio Project One",
-      projectDesc: "Project made in Html, Css, Sass, Bootstrap and Jquery",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://fahad-portfolios.web.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/portfolio.jpg"),
-      projectName: "Portfolio Project Two",
-      projectDesc: "Project made in Html, Css, Sass, Bootstrap and Jquery",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://portfolio-dummy.web.app/"
-        }
-      ]
-    },
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -694,6 +750,13 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
+// Twitter Section
+
+const stackoverflowDetails = {
+  id: "14139033", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
+};
+
 export {
   illustration,
   greeting,
@@ -711,5 +774,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  stackoverflowDetails
 };

@@ -10,9 +10,7 @@ export default function OpenSourceProjects() {
     win.focus();
   }
   const {isDark} = useContext(StyleContext);
-  if (!openSourceProjects.display) {
-    return null;
-  }
+  if (openSourceProjects.display) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -87,4 +85,6 @@ export default function OpenSourceProjects() {
       </div>
     </Fade>
   );
+  }
+  return null;
 }

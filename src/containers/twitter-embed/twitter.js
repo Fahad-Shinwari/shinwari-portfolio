@@ -2,8 +2,10 @@ import React, {Suspense, useContext} from "react";
 import "./twitter.css";
 import Loading from "../loading/Loading";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
-import {twitterDetails} from "../../portfolio";
+import {twitterDetails,stackoverflowDetails} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { StackOverflowProfile } from "react-stackoverflow-card";
+import "react-stackoverflow-card/dist/index.css";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
@@ -41,6 +43,13 @@ export default function Twitter() {
               noFooter={true}
               onload={timeOut()}
             />
+            <div>
+              <h2>Stack Overflow Profile:</h2>
+            <StackOverflowProfile
+              id={stackoverflowDetails.id}
+              containerStyle={{ backgroundColor: "white" }}
+            />
+            </div>
           </div>
         </div>
       </Suspense>
