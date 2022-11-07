@@ -12,7 +12,7 @@ const greeting = {
   username: "Fahad Shinwari",
   title: "Hi all, I'm Fahad Shinwari",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with  Reactjs / Nodejs / React Native / Laravel and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Javascript /  React / Nodejs / React Native / Php / Laravel and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1gBhE9pk9WqG0gIefSOetp-3NemgiN5DR/view?usp=sharing",
@@ -50,15 +50,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "Css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -66,7 +66,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -74,19 +74,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Typescript",
+      fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "Laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "npm",
+      skillName: "Npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -94,7 +102,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "firebase",
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Material UI",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Ant Design",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
@@ -260,7 +280,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Close Source Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME OF THE MANY STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/sharem.jpg"),
@@ -277,16 +297,16 @@ const bigProjects = {
     {
       image: require("./assets/images/sharem.jpg"),
       projectName: "Share Mobility (Admin's Panel)",
-      projectDesc: "Share Mobility is a transportation solutions for companies that need to get employees to work. Tech stack used is AngularJS, Javascript, Google Maps, Sass(CSS). The link is only for clients. Watch Video",
+      projectDesc: "Share Mobility is a transportation solutions full fledged app like uber. Tech stack used is AngularJS, Javascript, Google Maps, Sass(CSS), Reports and Artificial intelligence. The link is only for clients and admins.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://rider.ridewithshare.com/"
+          url: "https://app.ridewithshare.com/"
         },
-        {
-          name: "View Video",
-          url: "/video/nqUN530Rgtw"
-        }
+        // {
+        //   name: "View Video",
+        //   url: "/video/nqUN530Rgtw"
+        // }
         //  you can add extra buttons here.
       ]
     },
@@ -393,7 +413,7 @@ const bigProjects = {
     {
       image: require("./assets/images/prudental.webp"),
       projectName: "Prudental Netherlands",
-      projectDesc: "An Ecommerce site providing Quality Dental Products And Tools.The online store for dental professionals.",
+      projectDesc: "An Ecommerce site providing Quality Dental Products And Tools.The online store for dental professionals. Stack used is React, Redux(for state management),Css (Sass and bootstrap) for UI, Laravel for backend",
       footerLink: [
         {
           name: "Visit Website",
@@ -404,7 +424,7 @@ const bigProjects = {
     {
       image: require("./assets/images/legal.webp"),
       projectName: "Legal Netherlands",
-      projectDesc: "Legal.nl is an initiative of Axel Macro and HJ van der Tak: both lawyers since the early 1990s, both lawyers with extensive experience.",
+      projectDesc: "Legal.nl is an initiative of Axel Macro and HJ van der Tak: both lawyers since the early 1990s, both lawyers with extensive experience. Stack used is React, Redux(for state management),Css (Sass and bootstrap) for UI, .Net for backend",
       footerLink: [
         {
           name: "Visit Website",
@@ -415,7 +435,7 @@ const bigProjects = {
     {
       image: require("./assets/images/flex.webp"),
       projectName: "DatisFlex Netherlands",
-      projectDesc: "Job Portal for IT Professionals in netherlands. First you make your CV inside the portal and then apply for jobs just like indeed",
+      projectDesc: "Job Portal for IT Professionals in netherlands. First you make your CV inside the portal and then apply for jobs just like indeed. Stack used is React, Redux(for state management),Css (Sass and bootstrap) for UI, .Net for backend",
       footerLink: [
         {
           name: "Visit Website",
@@ -423,17 +443,17 @@ const bigProjects = {
         }
       ]
     },
-    // {
-    //   image: require("./assets/images/xyz.png"),
-    //   projectName: "We Play Ball",
-    //   projectDesc: "Project to create your custom teams and manage them",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "https://weplay.irdemo.xyz/"
-    //     }
-    //   ]
-    // }
+    {
+      image: require("./assets/images/trippin.jfif"),
+      projectName: "Trippin Photography",
+      projectDesc: "Project idea is to create a platform like Fiverr where photographer's can provide their services. Stack used is React, Redux(for state management),Css (Sass and bootstrap) for UI, Node for backend and Mysql as database. Website under construction",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "https://weplay.irdemo.xyz/"
+        // }
+      ]
+    }
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -448,9 +468,58 @@ const openSourceProjects = {
   display:true,
   projects: [
     {
+      image: require("./assets/images/blog.jpg"),
+      projectName: "Blog Posting Project (MERN Stack)",
+      projectDesc: "Tech Used is React, CSS(Sass), Redux for state management and Node for backend.Along with that sockets for chat system and notifications.",
+      footerLink: [
+        {
+          name: "Visit Backend",
+          url: "https://github.com/Fahad-Shinwari/datum-backend"
+        },
+        {
+          name: "Visit Frontend",
+          url: "https://github.com/Fahad-Shinwari/blog-frontend"
+        },
+        {
+          name: "View Video",
+          url: "/video/2aOm1Q4fdg8"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/shinwari.jpg"),
+      projectName: "Shinwari Portfolio Project",
+      projectDesc: "Tech Used is React and Custom Css and some animations libraries. The one you are viewing right now",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/Fahad-Shinwari/shinwari-portfolio"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/reviews.jpg"),
+      projectName: "Reviews Project (MERN Stack)",
+      projectDesc: "Tech Used is React, CSS(Sass), Redux for state management and Node for backend.Along with that sockets for notifications.",
+      footerLink: [
+        {
+          name: "Visit Backend",
+          url: "https://github.com/Fahad-Shinwari/reviews-backend"
+        },
+        {
+          name: "Visit Frontend",
+          url: "https://github.com/Fahad-Shinwari/reviews-frontend"
+        },
+        {
+          name: "View Video",
+          url: "/video/i_nPOD4TNcQ"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/gun.jpg"),
       projectName: "Shooter Game",
-      projectDesc: "Made a shooter game Lume.js,Three.js and Meteor.js.",
+      projectDesc: "Made a shooter game Lume.js,Three.js and Meteor.js. This game helped me alot in virtual reality and other stuff",
       footerLink: [
         {
           name: "Visit Website",
@@ -460,19 +529,6 @@ const openSourceProjects = {
           name: "Visit Github",
           url: "https://github.com/Fahad-Shinwari/shooter"
         }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/car.png"),
-      projectName: "Car Driving Game",
-      projectDesc: "Made a self driving car which controls itself by self learning. Tech used is Javascript and BrainJs",
-      footerLink: [
-        {
-          name: "Visit Github",
-          url: "https://github.com/Fahad-Shinwari/car-driving"
-        }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -490,6 +546,18 @@ const openSourceProjects = {
         }
       ]
     },
+    {
+      image: require("./assets/images/car.png"),
+      projectName: "Car Driving Game",
+      projectDesc: "Made a self driving car which controls itself by self learning. Tech used is Javascript and BrainJs",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/Fahad-Shinwari/car-driving"
+        }
+        //  you can add extra buttons here.
+      ]
+    },  
     {
       image: require("./assets/images/linkedin.png"),
       projectName: "LinkedIn Clone",
@@ -544,39 +612,6 @@ const wordPressProjects = {
           url: "https://www.mfa.gov.af/"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/wordpress2.jpg"),
-      projectName: "Milenin Mileage",
-      projectDesc: "The theme used is DIVI",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://melanin-mileage.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/wordpress3.jpg"),
-      projectName: "Farmaciasivf Muslimmir",
-      projectDesc: "Theme Used Avada",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://farmaciasivf.muslimmir.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/wordpress4.jpg"),
-      projectName: "TradoMite",
-      projectDesc: "Theme Used DIVI",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://tradomite.bilalkhawaja.com/"
-        }
       ]
     },
     {
